@@ -4,3 +4,4 @@ I can however show the generated images in a directory if you desire.
 The code was run without a GPU environment so it took longer than it should have.
 I've created a new GPU Environment for further projects.
 !mkdir shows already created folder because the I ran the code multipkke times so the directory already existed from the first run
+Ran the code on 2 different operating systems hence the need for OSX integration.
