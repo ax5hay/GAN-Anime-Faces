@@ -1,3 +1,5 @@
 Dataset Downloaded From : https://www.kaggle.com/soumikrakshit/anime-faces
 The size of the dataset as well as generated images exceeded the upload size limit so i've uploaded just the jupyter notebook.
 I can however show the generated images in a directory if you desire.
+The code was run without a GPU environment so it took longer than it should have.
+I've created a new GPU Environment for further projects.
