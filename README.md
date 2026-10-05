@@ -22,10 +22,10 @@ fake; the two train against each other until the generator's output is convincin
 
 ## Approach
 
-1. **Data** — stream the face images, normalise to `[-1, 1]` for a `tanh` generator output.
-2. **Generator** — dense projection → stacked `Conv2DTranspose` upsampling blocks → 64×64×3.
-3. **Discriminator** — strided `Conv2D` downsampling → single real/fake logit.
-4. **Adversarial loop** — alternate discriminator and generator updates with binary cross-entropy; snapshot a sample grid every few epochs to watch faces emerge.
+1. **Data**: stream the face images, normalise to `[-1, 1]` for a `tanh` generator output.
+2. **Generator**: dense projection → stacked `Conv2DTranspose` upsampling blocks → 64×64×3.
+3. **Discriminator**: strided `Conv2D` downsampling → single real/fake logit.
+4. **Adversarial loop**: alternate discriminator and generator updates with binary cross-entropy; snapshot a sample grid every few epochs to watch faces emerge.
 
 ## Run it
 
@@ -35,4 +35,4 @@ pip install tensorflow numpy matplotlib
 jupyter notebook Akshay_Bajpai_GAN-anime-faces.ipynb
 ```
 
-> Early deep-learning project — trained on CPU first, then moved to a GPU environment for later runs. See the notebook for the architecture and sample outputs.
+> Early deep-learning project: trained on CPU first, then moved to a GPU environment for later runs. See the notebook for the architecture and sample outputs.
